@@ -12,8 +12,10 @@ function ListGroup() {
     <>
       <h1>Group List</h1>
       <ul className="list-group">
-        {Items.map((Items) => (
-          <li className="list-group-item">{Items}</li>
+        {Items.map((Item) => (
+          <li className="list-group-item" key={Item}>
+            {Item}
+          </li>
         ))}
       </ul>
     </>
