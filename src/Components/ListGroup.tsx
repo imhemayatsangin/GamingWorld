@@ -6,8 +6,6 @@ function ListGroup() {
     "Date",
     "Elderberry",
     "Watermelon",
-    "Grapes",
-    "Pineapple",
   ];
 
   return (
